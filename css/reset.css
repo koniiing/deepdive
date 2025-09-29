@@ -1,0 +1,4 @@
+@charset "utf-8";/*독립된 css의 첫번째 줄에*/
+img{
+    max-width: 100%;
+}
