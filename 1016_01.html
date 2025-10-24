@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+<body>
+    <h1 id="title">
+        Hello World
+    <span>Javascript</span></h1>
+    <button type="button" id="btn">글자바꾸기</button>
+    <a href="#" id="link">링크</a>
+    <script>
+        const title=document.getElementById('title')
+        console.log(title.textContent);
+        console.log(title.innerHTML);
+        
+        // title.textContent='Javascripte <strong>Class</strong>'
+        title.innerHTML='Javascripte <strong>Class</strong>'
+
+        const btn=document.getElementById('btn')
+        btn.textContent='Change'
+        const link=document.getElementById('link')
+        link.innerHTML='<img src="./images/ghost_n1.png" alt="">고스트'
+
+
+    </script>
+</body>
+</html>
