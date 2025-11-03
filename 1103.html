@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        input:fucus{
+            background-color: #f3f3f3;
+            border-color: rgb(116, 116, 210);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="./login_success.html" method="post">
+    <input type="text" placeholder="input id" required>
+    <!-- 필수 입력 required -->
+    <input type="password" placeholder="input pw" required>
+    <button type="reset">다시입력하기</button>
+    <button type="submit">로그인</button>
+    <!-- button,reset,submit -->
+     </form>
+
+     <form>
+        <input type="email" required placeholder="이메일주소를 입력하세요">
+        <button type="submit" disabled>인증번호받기</button>
+     </form>
+
+     <textarea readonly>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse unde ipsum doloremque, consectetur nihil, maxime cum, quas delectus cumque optio vitae consequatur deserunt rem asperiores ratione explicabo dicta laborum.</textarea>
+</body>
+</html>
